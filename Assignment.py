@@ -25,7 +25,7 @@ print(email)
 
 driver.switch_to.window(windows[0])
 driver.find_element(By.NAME, "username").send_keys(email)
-driver.find_element(By.NAME, "password").send_keys("learning")
+driver.find_element(By.NAME, "password").send_keys("learnning")
 driver.find_element(By.XPATH, "(//span[@class='checkmark'])[1]").click()
 dropdown = Select(driver.find_element(By.XPATH, "//select[@class='form-control']"))
 dropdown.select_by_index(2)
