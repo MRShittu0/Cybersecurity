@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Page-1" id="VQ1VJVzmUTCTSTulGsba">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="M1XenycJYofJEW4zIZ_R-1" value="Splunk Server" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-2" value="Active Directory&lt;div&gt;Splunk Universal Forwarder&lt;/div&gt;&lt;div&gt;Sysmon&lt;/div&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#008a00;strokeColor=#005700;dashPattern=1 1;" edge="1" parent="1" source="M1XenycJYofJEW4zIZ_R-3" target="M1XenycJYofJEW4zIZ_R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-3" value="Windows 10&lt;div&gt;Splunk Universal Forwarder&lt;/div&gt;&lt;div&gt;Sysmon&lt;/div&gt;&lt;div&gt;Atomic Red team&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" vertex="1" parent="1">
+          <mxGeometry x="458.89000000000004" y="460" width="61.11" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-4" value="&lt;font color=&quot;#cc0000&quot;&gt;Attacker kali Linux&lt;/font&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#A50040;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#d80073;shape=mxgraph.azure.computer;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="680" y="315" width="66.66" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-5" value="Switch" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l2_switch;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="464.45" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="M1XenycJYofJEW4zIZ_R-6" target="M1XenycJYofJEW4zIZ_R-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-6" value="Router" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="464.45" y="180" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-7" value="Internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="464.45" y="50" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M1XenycJYofJEW4zIZ_R-3" target="M1XenycJYofJEW4zIZ_R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M1XenycJYofJEW4zIZ_R-5" target="M1XenycJYofJEW4zIZ_R-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M1XenycJYofJEW4zIZ_R-2" target="M1XenycJYofJEW4zIZ_R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M1XenycJYofJEW4zIZ_R-4" target="M1XenycJYofJEW4zIZ_R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M1XenycJYofJEW4zIZ_R-1" target="M1XenycJYofJEW4zIZ_R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.926;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="M1XenycJYofJEW4zIZ_R-2" target="M1XenycJYofJEW4zIZ_R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1XenycJYofJEW4zIZ_R-21" value="Domain: my Demo&lt;div&gt;Network: 192.168.10.0/24&lt;/div&gt;&lt;div&gt;Splunk Server: 192.168.10.10&lt;/div&gt;&lt;div&gt;Active Directory: 192.168.10.7&lt;/div&gt;&lt;div&gt;Attacker: 192.168.10.250&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="38" width="180" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
