@@ -19,7 +19,6 @@ My journey in IT has led me to develop a passion for cybersecurity, and I am now
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
 ### Network
 <div>
@@ -46,5 +45,7 @@ My journey in IT has led me to develop a passion for cybersecurity, and I am now
 </div>
 
 ## Projects
-- Detection Lab
-- SOC Automation Project
+- Active Directory Project
+- Reviewing Report Using Tenable Nesus
+- Crack a Hash wth JohntheRipper
+- Analysing Pcap with Wireshark
