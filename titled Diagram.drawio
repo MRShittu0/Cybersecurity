@@ -1,9 +1,59 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.13">
   <diagram name="Page-1" id="GK6thrr6gk4V1GFvI0xS">
-    <mxGraphModel>
+    <mxGraphModel dx="786" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eG3srWE-ufnITA4Rm758-1" value="Mythic C2" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#FF3333;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="113.5" y="320" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="eG3srWE-ufnITA4Rm758-2" value="Windows Server" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="92" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="eG3srWE-ufnITA4Rm758-3" value="SSH Server" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="eG3srWE-ufnITA4Rm758-16" value="RDP Brute Force" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eG3srWE-ufnITA4Rm758-4" target="eG3srWE-ufnITA4Rm758-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eG3srWE-ufnITA4Rm758-4" value="Attacker Laptop&lt;div&gt;Kali Linux&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#f01000;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eG3srWE-ufnITA4Rm758-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="129.75" as="targetPoint" />
+            <mxPoint x="425.5" y="129.79999999999995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eG3srWE-ufnITA4Rm758-6" value="Phase 1&lt;div&gt;Initial Acess&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="322" y="70" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eG3srWE-ufnITA4Rm758-9" value="Windows Server" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="593.5" y="182" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="eG3srWE-ufnITA4Rm758-10" value="Attacker Laptop&lt;div&gt;Kali Linux&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#f01000;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="200" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eG3srWE-ufnITA4Rm758-13" value="Successful Authentication" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="eG3srWE-ufnITA4Rm758-10" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="343.5" y="213" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="249" y="213" />
+              <mxPoint x="249" y="214" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eG3srWE-ufnITA4Rm758-14" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="370" y="116.75" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eG3srWE-ufnITA4Rm758-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eG3srWE-ufnITA4Rm758-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="213.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eG3srWE-ufnITA4Rm758-15" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="356" y="197.75" width="50" height="31.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
